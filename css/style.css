@@ -4,21 +4,16 @@
 
 body {
   background-color: #dadada;
-  font-family: sans-serif;
+  font-family: system-ui; sans-serif;
   font-size: 16px;
-  background-image: url(images/baku.jpg);
 }
 
 div {
   float: left;
   padding: 5%;
-  border: 5px solid gray;
-  margin: 5px;
-  width-top: 400px;
-}
-
-.preview {
-  background-image: url(images/baku.jpg);
+  border: 5px;
+  margin: 5%;
+  width: 400%;
 }
 
 h1 {
@@ -31,44 +26,62 @@ h1 {
 @media screen and (min-width: 575px){
    div {
     margin: 1%;
-    width: 48%;
+    width: 28%;
   }
 }
 
 @media screen and (min-width: 991px){
    div {
     margin: .5%;
+    width: 48%;
+  }
+}
+
+.preview{
+
+}
+.baku{
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-postion: left;
+}
+
+.london{
+  background-image: url(../images/london.png);
+  background-size: cover;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-postion: left;
+}
+
+.madrid{
+  background-image: url(../images/madrid.jpg);
+  background-size: cover;
+  display: inline-block;
+  background-postion: left;
+  background-repeat: no-repeat;
+}
+
+.rome{
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+  display: inline-block;
+  background-postion: left;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
     width: 28%;
   }
 }
 
-.baku{
-  background-image: url(images/baku.jpg);
-  background-size: cover;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-postion: left;
+@media screen and (min-width: 991px){
+   div {
+    margin: .5%;
+    width: 48%;
+  }
 }
-
-.London{
-  background-image: url(images/london.png);
-  background-size: cover;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-postion: left;
-}
-.madrid{
-  background-image: url(images/madrid.jpg);
-  background-size: cover;
-  display: inline-block;
-  background-postion: left;
-  background-repeat: no-repeat;
-
-}
-
-.Rome{
-  background-image: url(images/rome.jpg)
-  background-size: cover;
-  display: inline-block;
-  background-postion: left;
-  background-repeat: no-repeat;
