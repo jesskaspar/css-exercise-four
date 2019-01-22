@@ -38,12 +38,20 @@ h1 {
 }
 
 .preview{
-
+  float: left;
+  height: 200px;
+  margin: 1% 1%;
+  width: 48%;
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .baku{
   background-image: url(../images/baku.jpg);
   background-size: cover;
-  display: inline-block;
   background-repeat: no-repeat;
   background-postion: left;
 }
@@ -51,7 +59,6 @@ h1 {
 .london{
   background-image: url(../images/london.png);
   background-size: cover;
-  display: inline-block;
   background-repeat: no-repeat;
   background-postion: left;
 }
@@ -59,7 +66,6 @@ h1 {
 .madrid{
   background-image: url(../images/madrid.jpg);
   background-size: cover;
-  display: inline-block;
   background-postion: left;
   background-repeat: no-repeat;
 }
@@ -67,7 +73,6 @@ h1 {
 .rome{
   background-image: url(../images/rome.jpg);
   background-size: cover;
-  display: inline-block;
   background-postion: left;
   background-repeat: no-repeat;
 }
